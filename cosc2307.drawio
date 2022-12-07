@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T08:11:44.706Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="3MrwrULxmxjolFmBAxjW" type="github"><diagram id="jiU5WRW-6_tvRkWV96Jn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-07T00:37:29.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="wOlE8kBviy2zWIxaG5Iq" type="github">
+  <diagram id="46IAQ55l92iPXtVHbRnM" name="Page-1">
+    <mxGraphModel dx="771" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-1" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;User&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-2" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Playlist&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-3" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Artist&lt;br&gt;&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-4" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Album&lt;br&gt;&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-5" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Song&lt;br&gt;&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-6" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Song Length&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="620" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-7" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Date Added&lt;/font&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-10" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2PUfiOZjsZZcKfhOK1TC-1" target="2PUfiOZjsZZcKfhOK1TC-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="490" y="270" as="sourcePoint" />
+            <mxPoint x="530" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-11" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="439.5" y="360" as="sourcePoint" />
+            <mxPoint x="439.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-12" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="439.5" y="460" as="sourcePoint" />
+            <mxPoint x="439.5" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-13" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="439.5" y="560" as="sourcePoint" />
+            <mxPoint x="439.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-14" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2PUfiOZjsZZcKfhOK1TC-2" target="2PUfiOZjsZZcKfhOK1TC-7">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="450" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2PUfiOZjsZZcKfhOK1TC-15" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2PUfiOZjsZZcKfhOK1TC-5" target="2PUfiOZjsZZcKfhOK1TC-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="510" y="540" as="sourcePoint" />
+            <mxPoint x="610" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
